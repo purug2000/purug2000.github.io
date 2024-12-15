@@ -2,24 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
 profile:
   align: right
-  image: prof_pic.jpg
+  image: priyanshu_gupta.png
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am Priyanshu, a Researcher in the [PROSE team at Microsoft](https://www.microsoft.com/en-us/research/group/prose/) building solutions for designing and training AI agents for real world tasks like software engineering and data analysis by combining ideas from Program Synthesis, Reinforcement Learning and Prompt Optimization. My research has complemented warious AI based tools within Microsoft including but not limited to [Visual Studio Copilot]( https://learn.microsoft.com/en-us/visualstudio/ide/visual-studio-github-copilot-chat?view=vs-2022), [Visual Studio Code Copilot]( https://devblogs.microsoft.com/java/technical-preview-github-copilot-upgrade-assistant-for-java/), [Excel Copilot](https://support.microsoft.com/en-us/office/copilot-in-excel-with-python-364e4ae9-9343-4d56-952a-5f62b0f70db6) and [Intellicode](https://visualstudio.microsoft.com/services/intellicode/). 

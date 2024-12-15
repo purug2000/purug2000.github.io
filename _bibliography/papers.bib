@@ -1,115 +1,183 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{gupta-etal-2024-metareflection,
+    title = "{M}eta{R}eflection: Learning Instructions for Language Agents using Past Reflections",
+    author = "Gupta*, Priyanshu  and
+      Kirtania*, Shashank  and
+      Singha*, Ananya  and
+      Gulwani, Sumit  and
+      Radhakrishna, Arjun  and
+      Soares, Gustavo  and
+      Shi, Sherry",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.477",
+    doi = "10.18653/v1/2024.emnlp-main.477",
+    pages = "8369--8385",
+    abstract = "The popularity of Large Language Models (LLMs) have unleashed a new age of Language Agents for solving a diverse range of tasks. While contemporary frontier LLMs are capable enough to power reasonably good Language agents, the closed-API model makes it hard to improve in cases they perform sub-optimally. To address this, recent works have explored techniques to improve their performance using self reflection and prompt optimization techniques. While techniques like self reflection work well in an online setup, contemporary prompt optimization techniques are designed to work on simpler tasks. To address this, we introduce METAREFLECTION, a novel offline reinforcement learning technique that enhances the performance of Language Agents by augmenting a semantic memory based on experiential learnings from past trials. We demonstrate the efficacy of METAREFLECTION by evaluating across multiple domains, including complex logical reasoning, biomedical semantic similarity, open world question answering, and vulnerability threat detection, in Infrastructure-as-Code, with different agent design. METAREFLECTION boosts Language agents{'} performance by 4 {\%} to 16.82 {\%} over the raw GPT-4 baseline and performs on par with existing state-of-the-art prompt optimization techniques while requiring fewer LLM calls.",
+    selected = true,
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{10.1145/3611643.3616253,
+author = {Gupta*, Priyanshu and Khare*, Avishree and Bajpai, Yasharth and Chakraborty, Saikat and Gulwani, Sumit and Kanade, Aditya and Radhakrishna, Arjun and Soares, Gustavo and Tiwari, Ashish},
+title = {Grace: Language Models Meet Code Edits},
+year = {2023},
+isbn = {9798400703270},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3611643.3616253},
+doi = {10.1145/3611643.3616253},
+abstract = {Developers spend a significant amount of time in editing code for a variety of reasons such as bug fixing or adding new features. Designing effective methods to predict code edits has been an active yet challenging area of research due to the diversity of code edits and the difficulty of capturing the developer intent. In this work, we address these challenges by endowing pre-trained large language models (LLMs) with the knowledge of relevant prior associated edits, which we call the Grace (Generation conditioned on Associated Code Edits) method. The generative capability of the LLMs helps address the diversity in code changes and conditioning code generation on prior edits helps capture the latent developer intent. We evaluate two well-known LLMs, codex and CodeT5, in zero-shot and fine-tuning settings respectively. In our experiments with two datasets, Grace boosts the performance of the LLMs significantly, enabling them to generate 29\% and 54\% more correctly edited code in top-1 suggestions relative to the current state-of-the-art symbolic and neural approaches, respectively.},
+booktitle = {Proceedings of the 31st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+pages = {1483–1495},
+numpages = {13},
+keywords = {Associated edits, Code editing, Large language models, Pre-trained model, Programming language processing},
+location = {San Francisco, CA, USA},
+series = {ESEC/FSE 2023},
+selected = true,
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+
+@article{10.1145/3563302,
+author = {Zhang*, Yuhao and Bajpai*, Yasharth and Gupta*, Priyanshu and Ketkar*, Ameya and Allamanis, Miltiadis and Barik, Titus and Gulwani, Sumit and Radhakrishna, Arjun and Raza, Mohammad and Soares, Gustavo and Tiwari, Ashish},
+title = {Overwatch: learning patterns in code edit sequences},
+year = {2022},
+issue_date = {October 2022},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {6},
+number = {OOPSLA2},
+url = {https://doi.org/10.1145/3563302},
+doi = {10.1145/3563302},
+abstract = {Integrated Development Environments (IDEs) provide tool support to automate many source code editing tasks. Traditionally, IDEs use only the spatial context, i.e., the location where the developer is editing, to generate candidate edit recommendations. However, spatial context alone is often not sufficient to confidently predict the developer’s next edit, and thus IDEs generate many suggestions at a location. Therefore, IDEs generally do not actively offer suggestions and instead, the developer is usually required to click on a specific  
+icon or menu and then select from a large list of potential suggestions. As a consequence, developers often miss the opportunity to use the tool support because they are not aware it exists or forget to use it.  
+To better understand common patterns in developer behavior and produce better edit recommendations, we can additionally use the temporal context, i.e., the edits that a developer was recently performing. To enable edit recommendations based on temporal context, we present Overwatch, a novel technique for learning edit sequence patterns from traces of developers’ edits performed in an IDE. Our experiments show that Overwatch has 78\% precision and that Overwatch not only completed edits when developers missed the  
+opportunity to use the IDE tool support but also predicted new edits that have no tool support in the IDE.},
+journal = {Proc. ACM Program. Lang.},
+month = oct,
+articleno = {139},
+numpages = {29},
+keywords = {Artificial Intelligence, Program Generation, Program Synthesis},
+selected = true,
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+
+@inproceedings{10.1145/3442381.3450139,
+author = {Qaraei, Mohammadreza and Schultheis, Erik and Gupta, Priyanshu and Babbar, Rohit},
+title = {Convex Surrogates for Unbiased Loss Functions in Extreme Classification With Missing Labels},
+year = {2021},
+isbn = {9781450383127},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3442381.3450139},
+doi = {10.1145/3442381.3450139},
+abstract = {Extreme Classification (XC) refers to supervised learning where each training/test instance is labeled with small subset of relevant labels that are chosen from a large set of possible target labels. The framework of XC has been widely employed in web applications such as automatic labeling of web-encyclopedia, prediction of related searches, and recommendation systems. While most state-of-the-art models in XC achieve high overall accuracy by performing well on the frequently occurring labels, they perform poorly on a large number of infrequent (tail) labels. This arises from two statistical challenges, (i) missing labels, as it is virtually impossible to manually assign every relevant label to an instance, and (ii) highly imbalanced data distribution where a large fraction of labels are tail labels. In this work, we consider common loss functions that decompose over labels, and calculate unbiased estimates that compensate missing labels according to Natarajan et&nbsp;al. [26]. This turns out to be disadvantageous from an optimization perspective, as important properties such as convexity and lower-boundedness are lost. To circumvent this problem, we use the fact that typical loss functions in XC are convex surrogates of the 0-1 loss, and thus propose to switch to convex surrogates of its unbiased version. These surrogates are further adapted to the label imbalance by combining with label-frequency-based rebalancing. We show that the proposed loss functions can be easily incorporated into various different frameworks for extreme classification. This includes (i) linear classifiers, such as DiSMEC, on sparse input data representation, (ii) attention-based deep architecture, AttentionXML, learnt on dense Glove embeddings, and (iii) XLNet-based transformer model for extreme classification, APLC-XLNet. Our results demonstrate consistent improvements over the respective vanilla baseline models, on the propensity-scored metrics for precision and nDCG.},
+booktitle = {Proceedings of the Web Conference 2021},
+pages = {3711–3720},
+numpages = {10},
+keywords = {Extreme classification, Imbalanced classification, Loss functions, Missing labels},
+location = {Ljubljana, Slovenia},
+series = {WWW '21},
+selected = true,
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@InProceedings{10.1007/978-3-030-49062-1_25,
+author="Gupta, Priyanshu
+and Goswamy, Tushar
+and Kumar, Himanshu
+and Venkatesh, K. S.",
+editor="Kurosu, Masaaki",
+title="A Defocus Based Novel Keyboard Design",
+booktitle="Human-Computer Interaction. Multimodal and Natural Interaction",
+year="2020",
+publisher="Springer International Publishing",
+address="Cham",
+pages="363--379",
+abstract="Defocus based Depth estimation has been widely applied for constructing 3D setup from 2D image(s), reconstructing 3D scenes and image refocusing. Using defocus enables us to infer depth information from a single image using visual clues which can be captured by a monocular camera. In this paper, we propose an application of Depth from Defocus to a novel, portable keyboard design. Our estimation technique is based on the concept that depth of the finger with respect to our camera and its defocus blur value is correlated, and a map can be obtained to detect the finger position accurately. We have utilised the near-focus region for our design, assuming that the closer an object is to our camera, more will be its defocus blur. The proposed keyboard can be integrated with smartphones, tablets and Personal Computers, and only requires printing on plain paper or projection on a flat surface. The detection approach involves tracking the finger's position as the user types, measuring its defocus value when a key is pressed, and mapping the measured defocus together with a precalibrated relation between the defocus amount and the keyboard pattern. This is utilised to infer the finger's depth, which, along with the azimuth position of the stroke, identifies the pressed key. Our minimalistic design only requires a monocular camera, and there is no need for any external hardware. This makes the proposed approach a cost-effective and feasible solution for a portable keyboard.",
+isbn="978-3-030-49062-1"
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+
+
+@inproceedings{kirtania-etal-2024-logic,
+    title = "{LOGIC}-{LM}++: Multi-Step Refinement for Symbolic Formulations",
+    author = "Kirtania, Shashank  and
+      Gupta, Priyanshu  and
+      Radhakrishna, Arjun",
+    editor = "Dalvi Mishra, Bhavana  and
+      Durrett, Greg  and
+      Jansen, Peter  and
+      Lipkin, Ben  and
+      Neves Ribeiro, Danilo  and
+      Wong, Lionel  and
+      Ye, Xi  and
+      Zhao, Wenting",
+    booktitle = "Proceedings of the 2nd Workshop on Natural Language Reasoning and Structured Explanations (@ACL 2024)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.nlrse-1.6",
+    pages = "56--63",
+    abstract = "In this paper we examine the limitations of Large Language Models (LLMs) for complex reasoning tasks. While current approaches leverage formal languages as intermediate representation for these reasoning problems, they still struggle with generating intermediate for-mal specifications with great correctness and in refining these representations. To address these issues, this paper proposes Logic-LM++, an improvement on Logic-LM (Pan et al., 2023). It uses the ability of LLMs to do pairwise comparisons, allowing the evaluation of the refinements suggested by the LLM. The paper demonstrates that Logic-LM++ outperforms Logic-LM and LLM based techniques on natural language reasoning tasks on two datasets, FOLIO, ProofWriter and AR-LSAT. Logic-LM++ show an average improvement of 18.5{\%} on standard prompting, 12.3{\%} on chain of thought prompting and 5{\%} on Logic-LM.",
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@misc{gupta2024stackfeedstructuredtextualactorcritic,
+      title={STACKFEED: Structured Textual Actor-Critic Knowledge Base Editing with FeedBack}, 
+      author={Naman Gupta* and Shashank Kirtania* and Priyanshu Gupta and Krishna Kariya and Sumit Gulwani and Arun Iyer and Suresh Parthasarathy and Arjun Radhakrishna and Sriram K. Rajamani and Gustavo Soares},
+      year={2024},
+      eprint={2410.10584},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2410.10584}, 
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+@misc{chauhan2021probabilisticframeworkknowledgegraph,
+      title={A Probabilistic Framework for Knowledge Graph Data Augmentation}, 
+      author={Jatin Chauhan* and Priyanshu Gupta* and Pasquale Minervini},
+      year={2021},
+      eprint={2110.13205},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2110.13205}, 
 }
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@inproceedings{kumar-etal-2021-iitk,
+    title = "{IITK} at {S}em{E}val-2021 Task 10: Source-Free Unsupervised Domain Adaptation using Class Prototypes",
+    author = "Kumar*, Harshit  and
+      Shah*, Jinang  and
+      Hegde*, Nidhi  and
+      Gupta*, Priyanshu  and
+      Jindal*, Vaibhav  and
+      Modi, Ashutosh",
+    editor = "Palmer, Alexis  and
+      Schneider, Nathan  and
+      Schluter, Natalie  and
+      Emerson, Guy  and
+      Herbelot, Aurelie  and
+      Zhu, Xiaodan",
+    booktitle = "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.semeval-1.53",
+    doi = "10.18653/v1/2021.semeval-1.53",
+    pages = "438--444",
+    abstract = "Recent progress in deep learning has primarily been fueled by the availability of large amounts of annotated data that is obtained from highly expensive manual annotating pro-cesses. To tackle this issue of availability of annotated data, a lot of research has been done on unsupervised domain adaptation that tries to generate systems for an unlabelled target domain data, given labeled source domain data. However, the availability of annotated or labelled source domain dataset can{'}t always be guaranteed because of data-privacy issues. This is especially the case with medical data, as it may contain sensitive information of the patients. Source-free domain adaptation (SFDA) aims to resolve this issue by us-ing models trained on the source data instead of using the original annotated source data. In this work, we try to build SFDA systems for semantic processing by specifically focusing on the negation detection subtask of the SemEval2021 Task 10. We propose two approaches -ProtoAUGandAdapt-ProtoAUGthat use the idea of self-entropy to choose reliable and high confidence samples, which are then used for data augmentation and subsequent training of the models. Our methods report an improvement of up to 7{\%} in F1 score over the baseline for the Negation Detection subtask.",
+}
+@misc{khatry2023augmentedembeddingscustomretrievals,
+      title={Augmented Embeddings for Custom Retrievals}, 
+      author={Anirudh Khatry and Yasharth Bajpai and Priyanshu Gupta and Sumit Gulwani and Ashish Tiwari},
+      year={2023},
+      eprint={2310.05380},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR},
+      url={https://arxiv.org/abs/2310.05380}, 
 }
