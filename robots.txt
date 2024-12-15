@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://purug2000.github.io/sitemap.xml
+Sitemap: https://www.guptapriyanshu.com/sitemap.xml
