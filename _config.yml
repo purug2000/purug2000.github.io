@@ -629,4 +629,4 @@ third_party_libraries:
 jekyll_get_json:
   - data: resume
     json: assets/json/resume.json # it can also be an url
-cv_file: https://www.guptapriyanshu.com/assets/pdf/priyanshu_cv.pdf
+cv_file: https://guptapriyanshu.com/assets/pdf/priyanshu_cv.pdf
