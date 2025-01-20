@@ -101,7 +101,8 @@ publisher="Springer International Publishing",
 address="Cham",
 pages="363--379",
 abstract="Defocus based Depth estimation has been widely applied for constructing 3D setup from 2D image(s), reconstructing 3D scenes and image refocusing. Using defocus enables us to infer depth information from a single image using visual clues which can be captured by a monocular camera. In this paper, we propose an application of Depth from Defocus to a novel, portable keyboard design. Our estimation technique is based on the concept that depth of the finger with respect to our camera and its defocus blur value is correlated, and a map can be obtained to detect the finger position accurately. We have utilised the near-focus region for our design, assuming that the closer an object is to our camera, more will be its defocus blur. The proposed keyboard can be integrated with smartphones, tablets and Personal Computers, and only requires printing on plain paper or projection on a flat surface. The detection approach involves tracking the finger's position as the user types, measuring its defocus value when a key is pressed, and mapping the measured defocus together with a precalibrated relation between the defocus amount and the keyboard pattern. This is utilised to infer the finger's depth, which, along with the azimuth position of the stroke, identifies the pressed key. Our minimalistic design only requires a monocular camera, and there is no need for any external hardware. This makes the proposed approach a cost-effective and feasible solution for a portable keyboard.",
-isbn="978-3-030-49062-1"
+isbn="978-3-030-49062-1",
+url="https://link.springer.com/chapter/10.1007/978-3-030-49062-1_25"
 }
 
 
@@ -137,6 +138,7 @@ isbn="978-3-030-49062-1"
       archivePrefix={arXiv},
       primaryClass={cs.AI},
       url={https://arxiv.org/abs/2410.10584}, 
+      abstract="Large Language Models (LLMs) often generate incorrect or outdated information, especially in low-resource settings or when dealing with private data. To address this, Retrieval-Augmented Generation (RAG) uses external knowledge bases (KBs), but these can also suffer from inaccuracies. We introduce STACKFEED, a novel Structured Textual Actor-Critic Knowledge base editing with FEEDback approach that iteratively refines the KB based on expert feedback using a multi-actor, centralized critic reinforcement learning framework. Each document is assigned to an actor, modeled as a ReACT agent, which performs structured edits based on document-specific targeted instructions from a centralized critic. Experimental results show that STACKFEED significantly improves KB quality and RAG system performance, enhancing accuracy by up to 8% over baselines."
 }
 
 @misc{chauhan2021probabilisticframeworkknowledgegraph,
@@ -146,7 +148,8 @@ isbn="978-3-030-49062-1"
       eprint={2110.13205},
       archivePrefix={arXiv},
       primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2110.13205}, 
+      url={https://arxiv.org/abs/2110.13205},
+      abstract={We present NNMFAug, a probabilistic framework to perform data augmentation for the task of knowledge graph completion to counter the problem of data scarcity, which can enhance the learning process of neural link predictors. Our method can generate potentially diverse triples with the advantage of being efficient and scalable as well as agnostic to the choice of the link prediction model and dataset used. Experiments and analysis done on popular models and benchmarks show that NNMFAug can bring notable improvements over the baselines.}, 
 }
 @inproceedings{kumar-etal-2021-iitk,
     title = "{IITK} at {S}em{E}val-2021 Task 10: Source-Free Unsupervised Domain Adaptation using Class Prototypes",
@@ -179,5 +182,6 @@ isbn="978-3-030-49062-1"
       eprint={2310.05380},
       archivePrefix={arXiv},
       primaryClass={cs.IR},
-      url={https://arxiv.org/abs/2310.05380}, 
+      url={https://arxiv.org/abs/2310.05380},
+      abstract={Information retrieval involves selecting artifacts from a corpus that are most relevant to a given search query. The flavor of retrieval typically used in classical applications can be termed as homogeneous and relaxed, where queries and corpus elements are both natural language (NL) utterances (homogeneous) and the goal is to pick most relevant elements from the corpus in the Top-K, where K is large, such as 10, 25, 50 or even 100 (relaxed). Recently, retrieval is being used extensively in preparing prompts for large language models (LLMs) to enable LLMs to perform targeted tasks. These new applications of retrieval are often heterogeneous and strict -- the queries and the corpus contain different kinds of entities, such as NL and code, and there is a need for improving retrieval at Top-K for small values of K, such as K=1 or 3 or 5. Current dense retrieval techniques based on pretrained embeddings provide a general-purpose and powerful approach for retrieval, but they are oblivious to task-specific notions of similarity of heterogeneous artifacts. We introduce Adapted Dense Retrieval, a mechanism to transform embeddings to enable improved task-specific, heterogeneous and strict retrieval. Adapted Dense Retrieval works by learning a low-rank residual adaptation of the pretrained black-box embedding. We empirically validate our approach by showing improvements over the state-of-the-art general-purpose embeddings-based baseline.},
 }
