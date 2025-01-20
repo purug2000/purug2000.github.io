@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.guptapriyanshu.com/sitemap.xml
+Sitemap: https://guptapriyanshu.com/sitemap.xml
